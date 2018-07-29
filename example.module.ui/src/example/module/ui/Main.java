@@ -13,7 +13,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/example/module/ui/main.fxml"));
-        Parent root = loader.load();
+        Parent root = loader.load(); // woa
         Controller controller = loader.getController();
         controller.listArtists();
 
